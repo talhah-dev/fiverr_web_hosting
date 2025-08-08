@@ -5,33 +5,31 @@ dynamic_navbar.innerHTML = `
             <div class="md:max-w-[85%] mx-auto flex justify-between items-center w-full lg:p-5 p-3 lg:h-[116px] h-24">
                 <div class="flex w-full items-center justify-between xl:gap-32 gap-20">
                     <a data-aos="fade-right" href="/index.html"
-                        class="flex text-white font-semibold text-2xl italic items-center justify-center lg:justify-start">
-                        <!--  
-                        <img src="/docs/assets/images/logo.png" class="lg:h-24 h-20" alt="logo">
-                        -->
-                        Logo
+                        class="flex text-white font-semibold text-2xl gap-3 italic items-center justify-center lg:justify-start">
+                        <img src="/docs/assets/images/logo.png" class="lg:h-14 h-10" alt="logo">
+                        <span class="md:block hidden">Hostweave</span>
                     </a>
                     <div class="flex items-center gap-5">
                         <div data-aos="fade-left" class="lg:flex items-center gap-10 hidden">
                             <ul id="navbarLinks" class="lg:flex hidden items-center text-zinc-100 gap-10">
                                 <li><a href="index.html"
-                                        class="hover:opacity-60 tracking-wide  transition-all duration-500">VPS Hosting</a>
+                                        class="hover:opacity-60 tracking-wide text-nowrap  transition-all duration-500">VPS Hosting</a>
                                 </li>
                                 <li><a href="/about.html"
-                                        class="hover:opacity-60 tracking-wide  transition-all duration-500">About Us</a>
+                                        class="hover:opacity-60 tracking-wide text-nowrap  transition-all duration-500">About Us</a>
                                 </li>
                                 <li><a href="/cpanel-hosting.html"
-                                        class="hover:opacity-60 tracking-wide  transition-all duration-500">cPanel Hosting</a>
+                                        class="hover:opacity-60 tracking-wide text-nowrap  transition-all duration-500">cPanel Hosting</a>
                                 </li>
                                 <li><a href="/manage-cpanel.html"
-                                        class="hover:opacity-60 tracking-wide transition-all duration-500">Managed cPanel</a>
+                                        class="hover:opacity-60 tracking-wide text-nowrap transition-all duration-500">Managed cPanel</a>
                                 </li>
                             </ul>
                         </div>
                     </div>
                     <div data-aos="fade-left" class="lg:flex hidden  items-center gap-3">
                         <a href="/signup.html"
-                            class="w-full md:w-auto tracking-wider py-2 px-4 text-center text-white rounded-sm border border-zinc-200 hover:opacity-70 transition-all duration-500">
+                            class="w-full md:w-auto tracking-wider text-nowrap py-2 px-4 text-center text-white rounded-sm border border-zinc-200 hover:opacity-70 transition-all duration-500">
                             Sign Up
                         </a>
                         <a href="/login.html"
