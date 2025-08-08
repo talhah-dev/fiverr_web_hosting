@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login - Funnel Studio</title>
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="/docs/assets/images/favicon.png" type="image/x-icon">
+
+    <!-- Styles & Scripts -->
+    <link rel="stylesheet" href="/docs/Style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/lenis@1.3.1/dist/lenis.css">
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <meta name="description"
+        content="We turn your data into beautiful dashboards that help you make smarter decisions." />
+    <meta name="keywords" content="Data dashboards, Looker Studio, Google Sheets, CRM, Analytics, Insights" />
+</head>
+
+<body class="bg-white">
+
+    <div class="w-full flex">
+        <!-- Left Side (Image Background) -->
+        <div class="max-w-[50%] authBg lg:block hidden min-h-screen  relative w-full">
+            <div class="min-h-screen hidden w-full  p-5 lg:flex flex-col justify-between">
+                <a href="/index.html" class="text-white font-semibold italic text-2xl">
+                    <!-- <img src="/docs/assets/images/logo.png" alt="Logo" class="w-auto md:h-24 h-14" /> -->
+                    Logo
+                </a>
+                <p class="text-zinc-300">
+                    We provide professional and visually captivating web design and development services tailored to
+                    each client's unique vision and needs.
+                </p>
+            </div>
+        </div>
+
+        <!-- Right Side (Login Form) -->
+        <div class="lg:max-w-[50%] p-5 relative w-full bg-[#e5e5e6] min-h-screen flex items-center justify-center">
+            <a href="/signup.html"
+                class="text-zinc-800 hover:underline font-medium absolute md:top-8 top-5 md:right-8 right-5">Sign In</a>
+            <form class="text-center max-w-sm w-full">
+                <h2 class="text-zinc-800 font-medium text-2xl md:text-3xl capitalize">Welcome Back 👋</h2>
+                <p class="text-zinc-800 mt-1">Please login in to continue!</p>
+
+                <label for="email" class="text-start block text-sm mt-5 text-zinc-800 font-medium">Email</label>
+                <input type="email" id="email" placeholder="name@gmail.com"
+                    class="border placeholder:text-sm outline-zinc-500 mt-1 rounded-lg border-zinc-400 w-full px-3 py-2" />
+
+                <label for="password" class="text-start block text-sm mt-4 text-zinc-800 font-medium">Your
+                    Password</label>
+                <input type="password" id="password" placeholder="Your Password"
+                    class="border placeholder:text-sm outline-zinc-500 mt-1 rounded-lg border-zinc-400 w-full px-3 py-2" />
+
+                <button type="submit"
+                    class="bg-[#18181b] w-full p-2.5 mt-4 transition-all duration-500 hover:opacity-80 cursor-pointer text-center text-zinc-100 rounded-lg">
+                    Log In
+                </button>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>
