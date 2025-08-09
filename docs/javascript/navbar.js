@@ -6,8 +6,7 @@ dynamic_navbar.innerHTML = `
                 <div class="flex w-full items-center justify-between xl:gap-32 gap-20">
                     <a data-aos="fade-right" href="/index.html"
                         class="flex text-white font-semibold text-2xl gap-3 italic items-center justify-center lg:justify-start">
-                        <img src="/docs/assets/images/logo.png" class="lg:h-14 h-10" alt="logo">
-                        <span class="md:block hidden">Hostweave</span>
+                        <img src="/docs/assets/images/logo.png" class="lg:h-16 w-auto brightness-0 invert h-14" alt="logo">
                     </a>
                     <div class="flex items-center gap-5">
                         <div data-aos="fade-left" class="lg:flex items-center gap-10 hidden">
