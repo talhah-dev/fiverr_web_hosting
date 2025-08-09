@@ -14,10 +14,10 @@ footer.innerHTML = `
         <div data-aos="fade-up" data-aos-delay="100" class="second">
             <h2 class="text-2xl text-zinc-800 font-semibold">Quick Link</h2>
             <ul class="mt-5 space-y-3 text-zinc-600 font-medium">
-                <li><a href="/index.html">Home</a></li>
-                <li><a href="/about.html">About us</a></li>
+                <li><a href="/vps-hosting.html">VPS Hosting</a></li>
                 <li><a href="/cpanel-hosting.html">cpanel Hosting</a></li>
                 <li><a href="/manage-cpanel.html">Managed cPanel</a></li>
+                <li><a href="/about.html">About us</a></li>
             </ul>
         </div>
         <div data-aos="fade-up" data-aos-delay="200" class="second">

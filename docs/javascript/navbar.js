@@ -12,17 +12,17 @@ dynamic_navbar.innerHTML = `
                     <div class="flex items-center gap-5">
                         <div data-aos="fade-left" class="lg:flex items-center gap-10 hidden">
                             <ul id="navbarLinks" class="lg:flex hidden items-center text-zinc-100 gap-10">
-                                <li><a href="index.html"
+                                <li><a href="/vps-hosting.html"
                                         class="hover:opacity-60 tracking-wide text-nowrap  transition-all duration-500">VPS Hosting</a>
-                                </li>
-                                <li><a href="/about.html"
-                                        class="hover:opacity-60 tracking-wide text-nowrap  transition-all duration-500">About Us</a>
                                 </li>
                                 <li><a href="/cpanel-hosting.html"
                                         class="hover:opacity-60 tracking-wide text-nowrap  transition-all duration-500">cPanel Hosting</a>
                                 </li>
                                 <li><a href="/manage-cpanel.html"
                                         class="hover:opacity-60 tracking-wide text-nowrap transition-all duration-500">Managed cPanel</a>
+                                </li>
+                                <li><a href="/about.html"
+                                        class="hover:opacity-60 tracking-wide text-nowrap  transition-all duration-500">About Us</a>
                                 </li>
                             </ul>
                         </div>
@@ -49,20 +49,20 @@ dynamic_navbar.innerHTML = `
             </div>
             <div class="p-6">
                 <ul class="flex relative z-50 text-[#1D2939] flex-col gap-7">
-                    <li><a href="/index.html"
+                    <li><a href="/vps-hosting.html"
                             class="hover:opacity-60 mobileMenuCloseBtn tracking-wide  transition-all duration-500 text-nowrap">VPS Hosting</a>
+                    </li>
+                    <li><a href="/cpanel-hosting.html"
+                    class="hover:opacity-60 mobileMenuCloseBtn tracking-wide  transition-all duration-500 text-nowrap">cPanel
+                    Hosting</a>
+                    </li>
+                    <li><a href="/manage-cpanel.html"
+                    class="hover:opacity-60 mobileMenuCloseBtn tracking-wide transition-all duration-500 text-nowrap">Managed
+                    cPanel</a>
                     </li>
                     <li><a href="/about.html"
                             class="hover:opacity-60 mobileMenuCloseBtn tracking-wide  transition-all duration-500 text-nowrap">About
                             Us</a>
-                    </li>
-                    <li><a href="/cpanel-hosting.html"
-                            class="hover:opacity-60 mobileMenuCloseBtn tracking-wide  transition-all duration-500 text-nowrap">cPanel
-                            Hosting</a>
-                    </li>
-                    <li><a href="/manage-cpanel.html"
-                            class="hover:opacity-60 mobileMenuCloseBtn tracking-wide transition-all duration-500 text-nowrap">Managed
-                            cPanel</a>
                     </li>
                 </ul>
                 <div class="mt-5 flex flex-col gap-3">
