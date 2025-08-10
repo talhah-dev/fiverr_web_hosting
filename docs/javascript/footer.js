@@ -11,7 +11,7 @@ footer.innerHTML = `
             <ul class="mt-5 space-y-3 text-zinc-600 font-medium">
                 <li><a href="/vps-hosting.html">VPS Hosting</a></li>
                 <li><a href="/cpanel-hosting.html">cpanel Hosting</a></li>
-                <li><a href="/plans/manage-cpanel.html">Managed cPanel</a></li>
+                <li><a href="/manage-cpanel.html">Managed cPanel</a></li>
                 <li><a href="/about.html">About us</a></li>
             </ul>
         </div>

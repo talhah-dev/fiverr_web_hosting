@@ -17,7 +17,7 @@ dynamic_navbar.innerHTML = `
                                 <li><a href="/cpanel-hosting.html"
                                         class="hover:opacity-60 tracking-wide text-nowrap  transition-all duration-500">cPanel Hosting</a>
                                 </li>
-                                <li><a href="/plans/manage-cpanel.html"
+                                <li><a href="/manage-cpanel.html"
                                         class="hover:opacity-60 tracking-wide text-nowrap transition-all duration-500">Managed cPanel</a>
                                 </li>
                                 <li><a href="/about.html"
@@ -55,7 +55,7 @@ dynamic_navbar.innerHTML = `
                     class="hover:opacity-60 mobileMenuCloseBtn tracking-wide  transition-all duration-500 text-nowrap">cPanel
                     Hosting</a>
                     </li>
-                    <li><a href="/plans/manage-cpanel.html"
+                    <li><a href="/manage-cpanel.html"
                     class="hover:opacity-60 mobileMenuCloseBtn tracking-wide transition-all duration-500 text-nowrap">Managed
                     cPanel</a>
                     </li>
