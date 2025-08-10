@@ -2,15 +2,15 @@ const dynamic_navbar = document.getElementById("navbar");
 
 dynamic_navbar.innerHTML = `
         <nav id="navbar" class="absolute transition-all duration-500  top-0 left-0 w-full z-40">
-            <div class="md:max-w-[85%] mx-auto flex justify-between items-center w-full lg:p-5 p-3 lg:h-[116px] h-24">
+            <div class="md:max-w-[85%] mx-auto flex justify-between items-center w-full xl:p-5 p-3 xl:h-[116px] h-24">
                 <div class="flex w-full items-center justify-between xl:gap-32 gap-20">
                     <a data-aos="fade-right" href="/index.html"
-                        class="flex text-white font-semibold text-2xl gap-3 italic items-center justify-center lg:justify-start">
-                        <img src="/docs/assets/images/logo.png" class="lg:h-16 brightness-0 invert h-14" alt="logo">
+                        class="block">
+                        <img src="/docs/assets/images/logo.png" class="xl:h-16 brightness-0 invert h-14" alt="logo">
                     </a>
-                    <div class="flex items-center gap-5">
-                        <div data-aos="fade-left" class="lg:flex items-center gap-10 hidden">
-                            <ul id="navbarLinks" class="lg:flex hidden items-center text-zinc-100 gap-10">
+                    <div class="flex items-center gap-3">
+                        <div data-aos="fade-left" class="xl:flex items-center gap-10 hidden">
+                            <ul id="navbarLinks" class="xl:flex hidden items-center text-zinc-100 gap-10">
                                 <li><a href="/vps-hosting.html"
                                         class="hover:opacity-60 tracking-wide text-nowrap  transition-all duration-500">VPS Hosting</a>
                                 </li>
@@ -26,7 +26,7 @@ dynamic_navbar.innerHTML = `
                             </ul>
                         </div>
                     </div>
-                    <div data-aos="fade-left" class="lg:flex hidden  items-center gap-3">
+                    <div data-aos="fade-left" class="xl:flex hidden  items-center gap-2">
                         <a href="/signup.html"
                             class="w-full md:w-auto tracking-wider text-nowrap py-2 px-4 text-center text-white rounded-sm border border-zinc-200 hover:opacity-70 transition-all duration-500">
                             Sign Up
@@ -37,7 +37,7 @@ dynamic_navbar.innerHTML = `
                         </a>
                     </div>
                     <i data-aos="fade-left" id="mobileMenuBtn"
-                        class="fa-solid text-zinc-200 fa-bars lg:!hidden text-2xl cursor-pointer mr-2"></i>
+                        class="fa-solid text-zinc-200 fa-bars xl:!hidden text-2xl cursor-pointer mr-2"></i>
                 </div>
         </nav>
 
@@ -76,7 +76,7 @@ dynamic_navbar.innerHTML = `
                 </div>
             </div>
         </div>
-        <div class="lg:h-24 h-20"></div>
+        <div class="xl:h-24 h-20"></div>
 `
 
 const mobileMenuBtn = document.getElementById("mobileMenuBtn");
